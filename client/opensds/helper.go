@@ -21,7 +21,7 @@ var (
 	opensdsClient *client.Client
 )
 
-// GetClient return OpenSDS Client
+// GetClient return OpenSDS Client 
 func GetClient(endpoint string, authStrategy string) *client.Client {
 	if opensdsClient != nil {
 		return opensdsClient
